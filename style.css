@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:20px;
+    font-family:'gilroy';
+    color: white;
+    background-color: black;
+
+}
+body{
+    height: 100%;
+    width: 100%;  
+}
+#page1{ 
+    height: 100vh;
+    width: 100vw;
+    padding: 0 50px;
+
+}
+#nav{
+    height:100px;
+    width: 100%;
+    border-bottom: 2px solid rgb(88, 125, 194);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#nav h4{
+    text-transform: uppercase;
+}
+#container{
+    height: 80%; /*percentage according to parent depend karta hai par pixel mey aisa nhi hota hai; */
+    width: 100%;
+    display: flex;
+}
+#page2{
+    height: 100vh; /* viewport width aur viewport height accordning to size of screen leta hai percentage ya pixel ke hisaab sey nhi yeh bohoth helpful hota hai responsive website banaane mey kyuki jaise jaise screen size change hoga humlog ka css property sab uske hisaab sey react karega 
+    vmax- viewport maximum  , vmin- viewport minimum jaise laptop mey width zyaada hai height kam hai aur phone mey height zyaada hai aur width kam hai esliye dono ka vmax aur vmin phone aur laptop mey allag allag hota hai */
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+#left{
+    height: 100%;
+    width: 50%;
+    padding: 100px 50px;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+#left h1{
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 120px;
+    text-transform: uppercase;
+}
+#right img{
+
+    height: 90%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#box1 {
+    height: 300px;
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 15px ;
+    text-align: center;
+    padding: 30px;
+}
+#box2 {
+    height: 300px;
+    width: 400px;
+    border: 3px solid white; 
+    border-radius: 15px ;
+    text-align: center;
+    padding: 30px;
+}
+#box3 {
+    height: 300px;
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 15px ;
+    text-align: center;
+    padding: 30px;
+} 
+#box1 p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+#box2 p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+#box3 p{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
